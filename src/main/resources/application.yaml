@@ -1,0 +1,8 @@
+server:
+  port: 50100
+spring:
+  datasource:
+    username: sso
+    password: dipont
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.60.100:3308/sso?zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8&characterEncoding=utf8&autoReconnect=true&useSSL=false
